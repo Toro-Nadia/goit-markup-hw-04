@@ -213,7 +213,7 @@ background-size: cover;
 
 }
 .li-two {
-flex-basis: calc((100%-72px)/4);
+flex-basis: calc((100% - 72px)/4);
 }
 
 .title-sec {
@@ -261,7 +261,7 @@ flex-basis: calc((100%-72px)/4);
 
 .class {
         background-color: #FFFFFF;
-        flex-basis: calc((100%-3*24px)/4);
+        flex-basis: calc((100% - 3*24px)/4);
         border-radius: 0px 0px 4px 4px;
 }
 
@@ -327,7 +327,7 @@ row-gap: 48px;
 }
 
 .class-two {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
