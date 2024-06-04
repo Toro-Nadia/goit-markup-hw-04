@@ -22,16 +22,17 @@ p, h1, h2,h3,h4,h5,h6{
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-
-
-    .div-container{
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+.container-div{
+    display:flex;
+    align-items: center;
+    
     }
 
-    .container{}
+    .container{
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
 
 .header-nav {
     display: flex;
@@ -63,6 +64,8 @@ p, h1, h2,h3,h4,h5,h6{
 
 
 .nav-link-studio{
+    display: block;
+    padding: 24px 0;
     position: relative;
     color: #404bbf;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,6 +82,7 @@ p, h1, h2,h3,h4,h5,h6{
 }
 
 .nav-link {
+    display: block;
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
@@ -120,7 +124,7 @@ font-style: normal;
 .section {
 background-color:#2e2f42;
 padding: 188px 0;
-padding: 0 auto;
+margin: 0 auto;
 display: block;
 background-image: linear-gradient(rgba(46, 47, 66, 07), rgba(46, 47, 66, 07)), 
 url(../images/);
@@ -144,7 +148,8 @@ background-size: cover;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    
+    margin: auto; 
+    margin-bottom: 48px;
 }
 
 .button-link {
@@ -163,7 +168,7 @@ background-size: cover;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    margin: auto;
     }
 
 .button-link:hover,
