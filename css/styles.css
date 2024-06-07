@@ -240,8 +240,7 @@ flex-basis: calc((100% - 72px)/4);
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-.container-tree{}
-.container{}
+
 
 .team-title {
         font-weight: 700;
@@ -319,8 +318,7 @@ flex-basis: calc((100% - 72px)/4);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #404bbf;
-}
+    }
 
 .link-social:hover{
     background-color: #404bbf;
@@ -330,7 +328,9 @@ flex-basis: calc((100% - 72px)/4);
     background-color: #404bbf;
 }
 
-.svg-social{}
+.svg-social{
+    fill:#f4f4fd;
+}
 
 
 .section-four{
