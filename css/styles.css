@@ -309,6 +309,7 @@ flex-basis: calc((100% - 72px)/4);
 .li-social{
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-social{
     width: 100%;
@@ -321,9 +322,16 @@ flex-basis: calc((100% - 72px)/4);
     background-color: #404bbf;
 }
 
-.link-social:focus{
+.link-social:hover{
     background-color: #404bbf;
 }
+
+.link-social:focus {
+    background-color: #404bbf;
+}
+
+.svg-social{}
+
 
 .section-four{
     padding-top: 120px;
