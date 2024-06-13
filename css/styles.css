@@ -254,7 +254,7 @@ flex-basis: calc((100% - 72px)/4);
         margin-bottom: 72px;
 }
 
-.ul-list{
+.cl-list{
     display: flex;
     gap: 24px;
 }
